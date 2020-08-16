@@ -12,7 +12,7 @@
  * @package         Fix159757_Contas_A_Receber
  */
 
-// Your code starts here.
+if ( ! defined( 'ABSPATH' ) ) { exit; }
 
 require 'plugin-update-checker.php';
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
